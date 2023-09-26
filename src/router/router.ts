@@ -3,4 +3,4 @@ import { Controller } from "../controller/contoller";
 
 export const router = express.Router();
 
-router.get("/hiiiiiii", Controller.hi);
+router.get("/hiiiiii", Controller.hi);
