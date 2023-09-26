@@ -6,6 +6,7 @@ import { errorHandler } from "./util/errorHandler";
 
 const app = express();
 
+console.log('lol')
 app.use(cors());
 app.use(bodyParser.json());
 app.use(router);
