@@ -18,6 +18,4 @@ app.listen(PORT, () => {
   console.log(`[server]: Server started at: http://localhost:${PORT}/`);
 });
 
-console.log('hi11')
-
-console.log('tes','tes')
+console.log('hi1143')
