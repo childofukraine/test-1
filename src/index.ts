@@ -6,7 +6,6 @@ import { errorHandler } from "./util/errorHandler";
 
 const app = express();
 
-console.log('lol')
 app.use(cors());
 app.use(bodyParser.json());
 app.use(router);
@@ -17,8 +16,4 @@ const PORT = 5000 || process.env.PORT;
 app.listen(PORT, () => {
   console.log(`[server]: Server started at: http://localhost:${PORT}/`);
 });
-
-console.log('hi1143')
-
-
-console.log('test')
+console.log('1')
